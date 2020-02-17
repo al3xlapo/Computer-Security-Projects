@@ -1,0 +1,13 @@
+LIBRARY "blake_ref.dll"
+DESCRIPTION 'c wrapper'
+EXETYPE NT
+SUBSYSTEM WINDOWS
+CODE SHARED EXECUTE
+DATA WRITE
+EXPORTS
+	GetHashStateSize
+	Init
+	AddSalt
+	Update
+	Final
+	Hash
